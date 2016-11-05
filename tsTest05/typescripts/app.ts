@@ -55,3 +55,9 @@ class PostService extends ServiceBase<IPost> {
         super("Posts");
     }
 }
+
+interface JQueryStatic {
+    myPlugin : () => void;
+}
+
+$.myPlugin();

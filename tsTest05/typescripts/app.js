@@ -45,4 +45,5 @@ var PostService = (function (_super) {
     }
     return PostService;
 }(ServiceBase));
+$.myPlugin();
 //# sourceMappingURL=app.js.map
